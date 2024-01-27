@@ -6,7 +6,7 @@ This is done by alternating between two solid color frames one red and one green
 
 what will be seen is like a short flash of red or green.
 
-## Pre existing videos.
+## Premade videos.
 
 ### youtube
 A youtube video exist [here](https://www.youtube.com/watch?v=ygHkHRi6-xI)
@@ -15,7 +15,13 @@ If you see any issues try turn on "Stats for nerds" in the player and see if the
 
 ### Mpeg 4 file
 
-mp4 [video](someplace)
+mp4 [video](https://github.com/kenjo/framespector/assets/484396/f0ccd087-3dc8-4ccf-80e6-3ea1e3b07f41
+)
+
+this was converted to h265 with
+```
+ffmpeg -i video_test_60fps.mp4 -c:v libx265 -vtag hvc1  video_test_60fps_.mp4
+```
 
 ## Create mpeg video
 
